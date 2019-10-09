@@ -21,6 +21,6 @@ router.get('/led/:in', (req, res) => {
         console.log("unknown input");
         //alert("unknown input");
     }
-    res.render('led')
+    res.render('led');
 });
 module.exports = router;

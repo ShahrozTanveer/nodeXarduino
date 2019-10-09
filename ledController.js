@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 var five = require('johnny-five'),
     express = require('express'),
     expressLayouts = require('express-ejs-layouts'),
@@ -16,7 +16,7 @@ board.on('ready', function() {
     app.use(expressLayouts);
     app.set('view engine', 'ejs');
     app.use('/', require('./routes/index'));
-    app.use('/components', require('./routes/components'));
+    app.use('/LEDComp', require('./routes/LEDComp'));
     app.listen(port, console.log(`APP IS RUNNING ON PORT: ${port}`));
 });
 if (!flag) {
