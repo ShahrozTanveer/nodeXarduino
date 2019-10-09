@@ -1,4 +1,4 @@
-window.onload(){
+
    document.getElementById("switch1").onclick = function() {myFunction()};
 function myFunction() {
   var checkBox = document.getElementById("switch1");
@@ -33,5 +33,4 @@ http.onreadystatechange = function() {//Call a function when the state changes.
 }
 http.send(params);
   }
-}
 }
