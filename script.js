@@ -1,5 +1,3 @@
-
-   document.getElementById("switch1").onclick = function() {myFunction()};
 function myFunction() {
   var checkBox = document.getElementById("switch1");
   
